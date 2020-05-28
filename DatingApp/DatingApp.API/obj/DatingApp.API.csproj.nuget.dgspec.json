@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\Desktop\\Web\\APIAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "C:\\Users\\asus\\Desktop\\Web\\Angular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\Desktop\\Web\\APIAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "C:\\Users\\asus\\Desktop\\Web\\Angular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\Desktop\\Web\\APIAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\Desktop\\Web\\Angular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "C:\\Users\\asus\\Desktop\\Web\\APIAngular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "C:\\Users\\asus\\Desktop\\Web\\Angular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\Desktop\\Web\\APIAngular\\DatingApp\\DatingApp.API\\obj\\",
+        "outputPath": "C:\\Users\\asus\\Desktop\\Web\\Angular\\DatingApp\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,6 +45,14 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "Invio.Extensions.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"
@@ -58,6 +66,14 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.6.0, )"
             }
           },
           "imports": [
