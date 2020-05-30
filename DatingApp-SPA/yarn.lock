@@ -201,6 +201,13 @@
   resolved "https://registry.yarnpkg.com/@angular/router/-/router-9.1.9.tgz#5d79d72cb62ea1c04ea70238846653ecf9c4a73c"
   integrity sha512-4u+CWMPB4hCkAsFCEzC94YEWT0wVozqGkc/Dortt2hFaqvZpIegg6iJVZlDxuyDjzFYBPnnbTDdgiTTA8ckfuA==
 
+"@auth0/angular-jwt@^4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@auth0/angular-jwt/-/angular-jwt-4.1.2.tgz#365726e9a5f062f822b01baf3e902b0993d38836"
+  integrity sha512-DPZzo+nIJ/gg/wapIzrdcGHSJvcstB3LeUakny3NJZ4rkAxgg20j6UDzkQ9MP/Me7hg+jZvi7psATAiODL12ww==
+  dependencies:
+    url "^0.11.0"
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -1358,6 +1365,11 @@ ajv@^6.1.0, ajv@^6.10.2, ajv@^6.12.0, ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+alertifyjs@^1.13.1:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/alertifyjs/-/alertifyjs-1.13.1.tgz#f1f0aeb86cfe996740d509ae0706fe3ca677ce50"
+  integrity sha512-CckZE2dZDsEEXglOXKxT00vUDV5A6udZom+bn1XHdIWlbSFZgYq7UXCBlwkShhIH3Li/1VxLmr55GOQFQ12WSg==
+
 alphanum-sort@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
@@ -1786,6 +1798,11 @@ bootstrap@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.0.tgz#97d9dbcb5a8972f8722c9962483543b907d9b9ec"
   integrity sha512-Z93QoXvodoVslA+PWNdk23Hze4RBYIkpb5h8I2HY2Tu2h7A0LpAgLcyrhrSUyo2/Oxm2l1fRZPs1e5hnxnliXA==
+
+bootswatch@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/bootswatch/-/bootswatch-4.5.0.tgz#1f4ea460118d0da8113418f1627ca755697d7e0f"
+  integrity sha512-kAfYTTWIsgUOA5nybJNM4yvOpwxm37eIb1DFZlD5jLgPttK+bLJTt9UpKWAoMQZRBQbWfC1O1w1P5PGU7lz83Q==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -5453,6 +5470,11 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+ngx-bootstrap@^5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-5.6.1.tgz#c37643247441f9d421bca2cd7d7de1d0445e903f"
+  integrity sha512-8fDs3VaaWgKpupakPKS0QaUc+1E/JMBGJDxUUODjyIkLtFr1A8vH4cjXiV3AfrPvhK27GH0oyTPyKWKcCjEtVg==
 
 nice-try@^1.0.4:
   version "1.0.5"
