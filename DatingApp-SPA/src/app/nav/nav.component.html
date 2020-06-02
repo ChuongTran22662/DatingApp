@@ -2,13 +2,13 @@
   <div class="container">
     <a class="navbar-brand" [routerLink]="['/home']">Dating App</a>
     <ul *ngIf="loggedIn()" class="navbar-nav mr-auto">
-      <li class="nav-item active" routerLinkActive="active" >
-        <a class="nav-link" [routerLink]="['/members']" >Matches</a>
+      <li class="nav-item active" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/members']">Matches</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link" [routerLink]="['/lists']">Lists</a>
       </li>
-      <li class="nav-item" routerLinkActive="active" >
+      <li class="nav-item" routerLinkActive="active">
         <a class="nav-link disabled" [routerLink]="['/message']">Messages</a>
       </li>
     </ul>
@@ -19,7 +19,7 @@
       </a>
 
       <div class="dropdown-menu mt-3" *dropdownMenu>
-        <a class="dropdown-item" href="#"
+        <a class="dropdown-item" [routerLink]="['/member/edit']"
           ><i class="fa fa-user"></i> Edit Profile</a
         >
         <div class="dropdown-divider"></div>
