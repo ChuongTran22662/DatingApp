@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mHQrQthhwePF75jz1weDRB7vGMc9qoA8W3Yw+gf7Ndyv/bMMjW4sPFjFLKM+d3zmUzYbhoT7ZgKrvZbf2ZEavg==",
+  "dgSpecHash": "NVAl6cqPwd33iCfRc/mqwMjRpS7v0VnGFYanceob4cQBBIuKX+JtvL1n561lm0BA/XAytzfVFhFRxSZ/DZEmVA==",
   "success": true,
   "projectFilePath": "C:\\Users\\asus\\Desktop\\Web\\Angular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\cloudinarydotnet\\1.11.0\\cloudinarydotnet.1.11.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
