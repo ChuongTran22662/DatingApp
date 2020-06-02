@@ -8,7 +8,6 @@ import { AlertifyService } from '../_services/alertify.service';
   styleUrls: ['./register.component.css'],
 })
 export class RegisterComponent implements OnInit {
-  
   @Input() valuesFromHome: any;
   @Output() cancelRegister = new EventEmitter();
 
@@ -22,7 +21,6 @@ export class RegisterComponent implements OnInit {
   ngOnInit() {}
 
   register() {
-
     const x = this.model;
 
     this.authService.register(this.model).subscribe(
@@ -30,11 +28,11 @@ export class RegisterComponent implements OnInit {
         this.alertify.success('registration successfull');
       },
       (error) => {
-        if(!x.username){
-          this.alertify.error("Username is required");
+        if (!x.username) {
+          this.alertify.error('Username is required');
         }
-        if(!x.password){
-          this.alertify.error("Password is required");
+        if (!x.password) {
+          this.alertify.error('Password is required');
         }
       }
     );

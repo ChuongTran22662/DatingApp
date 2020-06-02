@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "D1cMb3gCSUVvwBtzSAdTiWHO2Dg38yh7xYwevR++Y9fTvxfmiva0TALcdQUrTXVx4epq/2aUvO/+pPMXLOii+Q==",
+  "dgSpecHash": "mHQrQthhwePF75jz1weDRB7vGMc9qoA8W3Yw+gf7Ndyv/bMMjW4sPFjFLKM+d3zmUzYbhoT7ZgKrvZbf2ZEavg==",
   "success": true,
   "projectFilePath": "C:\\Users\\asus\\Desktop\\Web\\Angular\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
-    "C:\\Users\\asus\\.nuget\\packages\\invio.extensions.authentication.jwtbearer\\2.0.1\\invio.extensions.authentication.jwtbearer.2.0.1.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.4\\microsoft.aspnetcore.authentication.jwtbearer.3.1.4.nupkg.sha512",

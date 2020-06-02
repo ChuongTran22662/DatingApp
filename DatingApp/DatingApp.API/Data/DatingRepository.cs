@@ -1,9 +1,7 @@
-﻿using DatingApp.API.Models;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using DatingApp.API.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace DatingApp.API.Data
 {

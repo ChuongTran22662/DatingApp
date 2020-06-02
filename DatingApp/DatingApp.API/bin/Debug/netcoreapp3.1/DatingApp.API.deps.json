@@ -27,7 +27,6 @@
           "AutoMapper": "9.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
           "EntityFramework": "6.4.4",
-          "Invio.Extensions.Authentication.JwtBearer": "2.0.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.4",
           "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.2.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.1.4",
@@ -354,21 +353,6 @@
         "compile": {
           "lib/netstandard2.1/EntityFramework.SqlServer.dll": {},
           "lib/netstandard2.1/EntityFramework.dll": {}
-        }
-      },
-      "Invio.Extensions.Authentication.JwtBearer/2.0.1": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.4",
-          "Microsoft.Extensions.DependencyInjection": "3.1.4"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Invio.Extensions.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "2.0.1.0",
-            "fileVersion": "2.0.1.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Invio.Extensions.Authentication.JwtBearer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
@@ -2928,13 +2912,6 @@
       "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
-    },
-    "Invio.Extensions.Authentication.JwtBearer/2.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Pwh2IeiNwZJeRQC+aeyZn68B2vB+SO1HLuCLW//BoECOJDueJnWZAErpSdhgQyl5P+3P9G+yqXaFIZEQsQ0wNg==",
-      "path": "invio.extensions.authentication.jwtbearer/2.0.1",
-      "hashPath": "invio.extensions.authentication.jwtbearer.2.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",

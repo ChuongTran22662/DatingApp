@@ -117,7 +117,7 @@
     ora "4.0.3"
     rxjs "6.5.4"
 
-"@angular/animations@~9.1.9":
+"@angular/animations@^9.1.9":
   version "9.1.9"
   resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-9.1.9.tgz#de54334ea195189402487855c9a98f5618605da4"
   integrity sha512-qWVi0TxmU6HeXAgEsfpQvFFygh+a0kH2kGe6bWij4XvG6dWfV3xZjlaFwSIYGk+yK4yL0+9+PAXH+ENfxNw+Cw==
@@ -1015,6 +1015,13 @@
     enhanced-resolve "4.1.1"
     rxjs "6.5.4"
     webpack-sources "1.4.3"
+
+"@ngx-gallery/core@^5.0.0-beta.0":
+  version "5.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@ngx-gallery/core/-/core-5.0.0-beta.0.tgz#9f6ddb56a8fee0034ca2dfba4f23ac8e640fa90b"
+  integrity sha512-K6zh7fCHf1cV6Y6TaEHUZ1jcXZz+8s9YG0TzocKTxl5KUqb/dV8DzVy6iatYtrx/zaiU35EQ5R9Ws9ZnwDlaQw==
+  dependencies:
+    tslib "^1.9.0"
 
 "@schematics/angular@9.1.7":
   version "9.1.7"
@@ -5476,6 +5483,11 @@ ngx-bootstrap@^5.6.1:
   resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-5.6.1.tgz#c37643247441f9d421bca2cd7d7de1d0445e903f"
   integrity sha512-8fDs3VaaWgKpupakPKS0QaUc+1E/JMBGJDxUUODjyIkLtFr1A8vH4cjXiV3AfrPvhK27GH0oyTPyKWKcCjEtVg==
 
+ngx-gallery-9@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/ngx-gallery-9/-/ngx-gallery-9-1.0.6.tgz#77713c4e1c2c33f2965f369d3742d6616f64c2b3"
+  integrity sha512-+l8QSZi2D37wZct7ZduTqzXMeEAg3zbazyi3sdMlU7oYZ7n8ai7xjC/rN5QTT/w1gwx85LtAonV9RnNFPHGbuw==
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -8743,6 +8755,11 @@ yn@^3.0.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/yn/-/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
   integrity sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
+
+your-package-name@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/your-package-name/-/your-package-name-0.0.0.tgz#5154d9a53eba8c6e86b66e85188d3e836c0b968a"
+  integrity sha512-rSZcXpHm/885/C4tREMNhfdX8BiQuPM8zt/jvxL/qUJsweVrUlyluT5cQv+R4tQNoz5npIQ4gc/bww+7vLy6WA==
 
 zone.js@~0.10.2:
   version "0.10.3"

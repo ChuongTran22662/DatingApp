@@ -53,10 +53,6 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
-            "Invio.Extensions.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[2.0.1, )"
-            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.1.4, )"

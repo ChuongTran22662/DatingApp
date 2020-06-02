@@ -50,19 +50,6 @@
           "buildTransitive/netcoreapp3.0/EntityFramework.targets": {}
         }
       },
-      "Invio.Extensions.Authentication.JwtBearer/2.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "2.1.2",
-          "Microsoft.Extensions.DependencyInjection": "2.1.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Invio.Extensions.Authentication.JwtBearer.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Invio.Extensions.Authentication.JwtBearer.dll": {}
-        }
-      },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1400,19 +1387,6 @@
         "tools/netcoreapp3.0/any/ef6.dll",
         "tools/netcoreapp3.0/any/ef6.pdb",
         "tools/netcoreapp3.0/any/ef6.runtimeconfig.json"
-      ]
-    },
-    "Invio.Extensions.Authentication.JwtBearer/2.0.1": {
-      "sha512": "Pwh2IeiNwZJeRQC+aeyZn68B2vB+SO1HLuCLW//BoECOJDueJnWZAErpSdhgQyl5P+3P9G+yqXaFIZEQsQ0wNg==",
-      "type": "package",
-      "path": "invio.extensions.authentication.jwtbearer/2.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "invio.extensions.authentication.jwtbearer.2.0.1.nupkg.sha512",
-        "invio.extensions.authentication.jwtbearer.nuspec",
-        "lib/netstandard2.0/Invio.Extensions.Authentication.JwtBearer.dll",
-        "lib/netstandard2.0/Invio.Extensions.Authentication.JwtBearer.xml"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
@@ -3814,7 +3788,6 @@
       "AutoMapper >= 9.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
       "EntityFramework >= 6.4.4",
-      "Invio.Extensions.Authentication.JwtBearer >= 2.0.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.4",
       "Microsoft.AspNetCore.Mvc.Formatters.Json >= 2.2.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.4",
@@ -3877,10 +3850,6 @@
           "EntityFramework": {
             "target": "Package",
             "version": "[6.4.4, )"
-          },
-          "Invio.Extensions.Authentication.JwtBearer": {
-            "target": "Package",
-            "version": "[2.0.1, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
