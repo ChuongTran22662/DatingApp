@@ -6,4 +6,18 @@
   cursor: pointer;
 }
 
+img{
+  max-height:  50px;
+  border: 2px solid white;
+  display:  inline;
+  border-radius: 50%;
+  border: 1px solid #121221;
+}
+
+img:hover{
+  cursor: pointer;
+  transform: rotate(20deg);
+  opacity: 0.7;
+}
+
 
