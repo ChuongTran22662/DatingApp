@@ -5485,10 +5485,10 @@ ng2-file-upload@^1.4.0:
   dependencies:
     tslib "^1.9.0"
 
-ngx-bootstrap@^5.6.1:
-  version "5.6.1"
-  resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-5.6.1.tgz#c37643247441f9d421bca2cd7d7de1d0445e903f"
-  integrity sha512-8fDs3VaaWgKpupakPKS0QaUc+1E/JMBGJDxUUODjyIkLtFr1A8vH4cjXiV3AfrPvhK27GH0oyTPyKWKcCjEtVg==
+ngx-bootstrap@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-5.1.0.tgz#4a3d1b9ab099a4f8c01e8760c947873cb8505569"
+  integrity sha512-gHmIH1dZcZgbgu9Y88iPa8JaMkSM1QrU1zPDSJIw5TUNXVbwhvi5bzh2ttjvL88agyVWmTHM0mgyntPAgULxCQ==
 
 ngx-gallery-9@^1.0.6:
   version "1.0.6"
