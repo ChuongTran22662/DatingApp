@@ -34,6 +34,7 @@ import { PreventUnsavedChanges } from './_guards/orevent-unsaved-changes.guard';
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 import { FileUploadModule } from 'ng2-file-upload';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { DateAgoPipe } from './pipes/date-ago.pipe';
 
 export function tokenGetter() {
   return localStorage.getItem('token');
@@ -52,6 +53,7 @@ export function tokenGetter() {
     MemberDetailComponent,
     MemberEditComponent,
     PhotoEditorComponent,
+    DateAgoPipe,
   ],
   imports: [
     BrowserModule,
